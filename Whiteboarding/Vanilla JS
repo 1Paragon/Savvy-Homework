@@ -1,0 +1,83 @@
+//Write a JavaScript function that takes in three integers and returns the integer with the highest value.
+//(Do NOT use Math.max()!!!)
+//Example:
+//findHighest(5, 8, 1) // --> 8
+const numbers = [2, 4, 6]
+const highest = numbers.filter(numbers => numbers > 5);
+console.log(highest);
+const numbah = [26, 7, 500];
+function highNum() {
+ if (numbah[0]) > numbah[1] > numbah[2]) {
+     console.log(`$numbah[0]}`)
+ }
+if (numbaqh[1] > numbah[2] && numbah[1] > numbah[0]) {
+    console.log((`${numbah[0]}`)
+}
+else{
+    console.log(`${numbah[2]}`);
+};
+};
+//using this prints out the individual values and goes through each number in the array
+//console.log(Math.max(numbah));
+
+function findVowel(txt)
+{
+  var vowel = 'aeiouAEIOU';
+  var vcount = 0;
+  
+  for(var x = 0; x < txt.length ; x++)
+  {
+    if (vowel.indexOf(txt[x]) !== -1)
+    {
+      vcount += 1;
+    }
+    }
+  return vcount;
+}
+console.log(findVowel("hello"));
+console.log(findVowel("why"))
+
+//Write a JavaScript function that takes in two integers and returns their sum, unless the two integers are equal. If the two integers are equal, then return three times their sum.
+//Examples: sum2Integers(10, 20) // --> 30
+//sum2Integers(10, 10) // --> 60
+func
+function sumTwoIntegers(num1, num2) {
+    const sum = num1 + num 2;
+    if (num1===num2) {
+        return sum*3;
+    }
+    console.log(sumTwoIntegers(2,2));
+        //return(num1 + num2) *3;
+        //console.log((num1+num2)*3);
+    //} else {
+     //   console.log(num1+num2);
+     //}
+    }
+    //sumTwoIntegers(10, 2);
+//Terinary Example
+//function sumTwoIntegers(num1, num2) {
+    const sum = (num1+num2)
+
+//Write a function that determines if a string in a palindrome.
+//A palindrome is a string that is the same forward and backwards.
+//Examples:
+//isPalindrome('racecar') // --> true
+//isPalindrome('table') // --> false
+
+function ifPalindrome(str) {
+  let palindrome = str.split(“”);
+  console.log(palindrome);
+  palindrome = palindrome.reverse();
+  console.log(palindrome);
+  palindrome = palindrome.join(“”);
+  return str === palindrome;
+}
+ifPalindrome(“racecar”);
+function ifPalindrome(str) {
+  let palindrome = str
+    .split(“”)
+    .reverse()
+    .join(“”);
+  return str === palindrome;
+}
+ifPalindrome(“table”);

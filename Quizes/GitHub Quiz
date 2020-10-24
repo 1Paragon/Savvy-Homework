@@ -1,0 +1,70 @@
+Git Quiz
+Total points9/10
+A 10 question quiz over the basics of GitHub
+Email address *
+1Paragon@protonmail.com
+ 
+What does "git init" do? *
+1/1
+creates a new repo and allows access from the terminal
+Incorrect
+ 
+What does the "push" command do? *
+1/1
+uploads local repository content to remote repository
+Incorrect
+ 
+What does the "pull" command do? *
+1/1
+Obtains content from a remote repository
+Incorrect
+
+What does the "add" command do? *
+1/1
+Sends files to the staging area
+Incorrect
+ 
+What does the "commit" command do? *
+1/1
+saves local repository changes
+Incorrect
+ 
+What does the "status" command show? *
+1/1
+Displays the directory and staging area
+Incorrect
+ 
+Type the correct commands, from start to finish, to add code you have been working on, to an existing repo on GitHub. You are currently working on branch "bug/homeAlignment" *
+0/1
+git add bug/homeAlignment; git commit -m 'changes'; git push add origin master
+Incorrect
+ 
+Individual feedback
+Close! git add . / git commit -m "bug fix" / git push origin bug/homeAlignment. Remember, add takes a file name, and git push accepts "origin or remote" and then the name of the branch.
+ 
+What does the following command do: "git checkout feature/newFeature" *
+1/1
+Allows travel between branches
+Incorrect
+ 
+Individual feedback
+Eh, i wouldnt say allows. It just switches to an existing branch.
+ 
+What is the difference between the following two commands: "git checkout feature/newFeature" "git checkout -b feature/newFeature" *
+1/1
+git checkout (replaces the local changes.) git checkout -b feature/newFeature (creates a new branch by the name indicated and switches to it)
+Incorrect
+
+Individual feedback
+close. ill give it to you, but dont use the term "replaces" because that implies you're removing/deleting something. Switching branches is a better answer.
+ 
+Last one! If you want to grab a copy of a GitHub repo and create your own repo from it, what would you click on in GitHub? *
+1/1
+Star
+Fork
+Correct
+ 
+Watch
+I dont know
+This content is neither created nor endorsed by Google. - Terms of Service - Privacy Policy
+Google Forms  
